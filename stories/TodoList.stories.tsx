@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { TodoList } from './TodoList';
-import { TodoItem } from './interface';
+import { TodoList } from '../components/TodoList/TodoList';
+import { TodoItem } from '../components/TodoList/interface';
 
 const meta: Meta<typeof TodoList> = {
   title: 'Components/TodoList',
